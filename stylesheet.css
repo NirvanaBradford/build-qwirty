@@ -1,0 +1,83 @@
+/*navbar*/
+.navbar {
+  display: flex;
+  background-color: rgb(36, 51, 254);
+  align-items: center;
+  margin: 0;
+  color: rgb(255, 255, 255);
+
+  a {
+    color: white;
+  }
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 5px;
+  margin-left: 10px;
+}
+
+.loginbar {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+/*searchbar*/
+
+.searchbar {
+  display: flex;
+  align-content: center;
+  gap: 10px;
+
+  h1 {
+    color: rgb(70, 70, 245);
+  }
+
+  button {
+    background-color: rgb(240, 47, 47);
+    color: white;
+  }
+
+  input {
+    width: 100%;
+  }
+}
+
+input,
+button {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/*sidebar*/
+
+main {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  flex-grow: 10px;
+}
+
+.sidebar {
+  margin: 0%;
+  padding: 0%;
+  background-color: rgb(248, 255, 255);
+}
+
+.sidestyle {
+  flex-direction: column;
+  align-content: center;
+  width: 150px;
+  padding: 1px;
+}
+
+.sidecolor {
+  background-color: blue;
+  color: white;
+  padding: 1px;
+  padding-left: 2px;
+}
